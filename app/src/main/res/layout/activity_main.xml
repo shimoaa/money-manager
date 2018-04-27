@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="220dp">
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="User name"
+            android:inputType="textEmailAddress"
+            android:padding="14dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="***********"
+            android:inputType="textPassword"
+            android:padding="14dp" />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_login"
+            android:padding="14dp"
+            android:text="Login"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_signup"
+            android:padding="14dp"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>
